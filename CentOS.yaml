@@ -1,0 +1,13 @@
+---
+ip: "192.168.20.10"
+memory: 2048
+cpus: 1
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: ~/Dev/Code
+      to: /home/vagrant/Code
